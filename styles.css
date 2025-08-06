@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 60px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #facc15;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #eab308;
+}
+.menu {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.item span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.reserva {
+  padding: 60px 20px;
+  background-color: #fef3c7;
+  text-align: center;
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contacto {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

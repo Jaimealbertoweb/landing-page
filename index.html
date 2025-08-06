@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Telepollo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <h1 class="logo">Telepollo</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#reserva"target="_blank" rel="noopener noreferrer">Reservar</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Hero -->
+  <section class="hero">
+    <div class="container">
+      <h2>¡El mejor pollo asado del barrio!</h2>
+      <p>Jugoso y crujiente</p>
+      <a href="#reserva" class="btn">Haz tu pedido ahora</a>
+    </div>
+  </section>
+
+  <!-- Sección Menú -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <h2>Nuestro Menú</h2>
+      <div class="menu-items">
+        <div class="item">
+          <h3>Pollo Asado Clásico</h3>
+          <p>Con papas y alioli</p>
+          <span>10,99€</span>
+        </div>
+        <div class="item">
+          <h3>Pollo BBQ</h3>
+          <p>Con salsa barbacoa y patatas deluxe</p>
+          <span>12,50€</span>
+        </div>
+        <div class="item">
+          <h3>Combo Familiar</h3>
+          <p>2 pollos + guarniciones + bebida</p>
+          <span>24,90€</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Reserva -->
+  <section class="reserva" id="reserva">
+    <div class="container">
+      <h2>Reserva tu Pedido</h2>
+      <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="pedido">Tu pedido:</label>
+        <textarea id="pedido" name="pedido" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Enviar pedido</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>📍 Calle del Sabor, 123 - Madrid</p>
+      <p>📞 912 345 678</p>
+      <p>⏰ Lunes a Domingo: 12:00 - 22:00</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Telepollo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
